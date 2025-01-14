@@ -1,0 +1,17 @@
+;------------------------------------------------------------------------------
+; FileTags x86 Library
+;
+; Paste the text below at the end of \WinAsm\API\masmApiCall.vaa to add these to WinASM
+;
+;------------------------------------------------------------------------------
+FileTagsInit
+FileTagsFree
+FileTagsRead,pszFilename,pszTagsBuffer,lpdwTagsCount
+FileTagsReadA,pszFilename,pszTagsBuffer,lpdwTagsCount
+FileTagsReadW,pszFilename,pszTagsBuffer,lpdwTagsCount
+FileTagsWrite,pszFilename,pszTagsBuffer
+FileTagsWriteA,pszFilename,pszTagsBuffer
+FileTagsWriteW,pszFilename,pszTagsBuffer
+FileTagsClear,pszFilename
+FileTagsClearA,pszFilename
+FileTagsClearW,pszFilename

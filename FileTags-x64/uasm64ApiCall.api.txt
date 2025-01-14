@@ -1,0 +1,17 @@
+;------------------------------------------------------------------------------
+; FileTags x64 Library
+;
+; Paste this text at the end of \Radasm\UASM64\uasm64ApiCall.api to add these to Radasm
+;
+;------------------------------------------------------------------------------
+FileTagsInit
+FileTagsFree
+FileTagsRead,pszFilename,pszTagsBuffer,lpqwTagsCount
+FileTagsReadA,pszFilename,pszTagsBuffer,lpqwTagsCount
+FileTagsReadW,pszFilename,pszTagsBuffer,lpqwTagsCount
+FileTagsWrite,pszFilename,pszTagsBuffer
+FileTagsWriteA,pszFilename,pszTagsBuffer
+FileTagsWriteW,pszFilename,pszTagsBuffer
+FileTagsClear,pszFilename
+FileTagsClearA,pszFilename
+FileTagsClearW,pszFilename

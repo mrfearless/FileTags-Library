@@ -1,0 +1,17 @@
+;------------------------------------------------------------------------------
+; FileTags x86 Library
+;
+; Paste this text at the end of \Radasm\masm\masmApiCall.api to add these to Radasm
+;
+;------------------------------------------------------------------------------
+FileTagsInit
+FileTagsFree
+FileTagsRead,pszFilename,pszTagsBuffer,lpdwTagsCount
+FileTagsReadA,pszFilename,pszTagsBuffer,lpdwTagsCount
+FileTagsReadW,pszFilename,pszTagsBuffer,lpdwTagsCount
+FileTagsWrite,pszFilename,pszTagsBuffer
+FileTagsWriteA,pszFilename,pszTagsBuffer
+FileTagsWriteW,pszFilename,pszTagsBuffer
+FileTagsClear,pszFilename
+FileTagsClearA,pszFilename
+FileTagsClearW,pszFilename

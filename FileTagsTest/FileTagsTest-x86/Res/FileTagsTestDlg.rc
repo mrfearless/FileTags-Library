@@ -1,0 +1,31 @@
+#define IDD_DIALOG 1000
+#define IDC_SHP1 1011
+#define IDC_BtnOpenFile 1001
+#define IDC_BtnExit 1002
+#define IDC_EdtFileTags 1003
+#define IDC_LblFileTags 1004
+#define IDC_EdtFilename 1005
+#define IDC_LblFilename 1006
+#define IDC_BtnClearTags 1007
+#define IDC_BtnSaveTags 1008
+#define IDC_LblTagInfo 1009
+#define IDC_TxtTagOpStatus 1010
+IDD_DIALOG DIALOGEX 5,4,297,178
+CAPTION "FileTags Test"
+FONT 11,"Segoe UI",400,0
+CLASS "DLGCLASS"
+STYLE 0x10CE0800
+EXSTYLE 0x00000000
+BEGIN
+  CONTROL "&Open A File To Read Its Tags / Keywords...",IDC_BtnOpenFile,"Button",0x50010001,7,10,283,14,0x00000000
+  CONTROL "Filename:",IDC_LblFilename,"Static",0x50000000,7,32,280,8,0x00000000
+  CONTROL "",IDC_EdtFilename,"Edit",0x50010000,7,42,283,12,0x00000200
+  CONTROL "Tags / Keywords:",IDC_LblFileTags,"Static",0x50000000,7,64,280,8,0x00000000
+  CONTROL "",IDC_EdtFileTags,"Edit",0x50010000,7,74,283,12,0x00000200
+  CONTROL "",IDC_SHP1,"Static",0x50000008,7,92,283,36,0x00000000
+  CONTROL "Note: Tags / Keywords should be seperated by a semi-colon character ;\rAfter adding or editing Tags / Keywords click the 'Save Tags' button.\rTo delete Tags / Keywords from a file click the 'Clear Tags' button.",IDC_LblTagInfo,"Static",0x50000000,15,98,268,26,0x00000000
+  CONTROL "",IDC_TxtTagOpStatus,"Static",0x50000000,7,134,280,8,0x00000000
+  CONTROL "&Save Tags",IDC_BtnSaveTags,"Button",0x50010000,7,148,73,14,0x00000000
+  CONTROL "&Clear Tags",IDC_BtnClearTags,"Button",0x50010000,112,148,73,14,0x00000000
+  CONTROL "E&xit",IDC_BtnExit,"Button",0x50010000,217,148,73,14,0x00000000
+END

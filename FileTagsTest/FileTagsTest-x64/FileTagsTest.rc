@@ -1,0 +1,4 @@
+#include "Res/FileTagsTestVer.rc"
+#include "Res/FileTagsTestMnu.rc"
+#include "Res/FileTagsTestDlg.rc"
+#include "Res/FileTagsTestRes.rc"
